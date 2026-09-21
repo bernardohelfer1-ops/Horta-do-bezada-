@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f8f2;
+  color: #18351e;
+}
+
+header {
+  background: #176b35;
+  color: white;
+  padding: 22px 16px;
+}
+
+.brand {
+  max-width: 1050px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo {
+  font-size: 45px;
+}
+
+h1 {
+  font-size: 27px;
+}
+
+.brand p {
+  opacity: .9;
+  margin-top: 4px;
+}
+
+main {
+  max-width: 1050px;
+  margin: auto;
+  padding: 20px 15px 40px;
+}
+
+.hero {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.hero h2 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 4px 15px #00000012;
+}
+
+.foto {
+  height: 120px;
+  border-radius: 14px;
+  background: #e1f1df;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 65px;
+  margin-bottom: 14px;
+}
+
+.card h3 {
+  font-size: 21px;
+  margin-bottom: 5px;
+}
+
+.preco {
+  color: #176b35;
+  font-weight: bold;
+  font-size: 19px;
+  margin: 10px 0;
+}
+
+.card button, .btn {
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  padding: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add {
+  background: #176b35;
+  color: white;
+}
+
+.pedido, .info {
+  background: white;
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px #00000012;
+}
+
+.pedido h2, .info h2 {
+  margin-bottom: 15px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 21px;
+  margin: 18px 0;
+}
+
+.whatsapp {
+  background: #25d366;
+  color: white;
+  font-size: 16px;
+}
+
+.info p {
+  margin: 8px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #123c20;
+  color: white;
+}
+
+.vazio {
+  color: #777;
+}
